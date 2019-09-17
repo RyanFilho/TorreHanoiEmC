@@ -53,7 +53,7 @@ void imprimir(Pilha * p) {
 	int i;
 	printf("[ ");
 	for(i=0; i<p->tp; i++) {
-		printf("%d ", p->itens[i]);
+		printf("%c ", p->itens[i] + 40);
 	}
 	printf("]\n");
 }
